@@ -8,7 +8,7 @@ Original file is located at
 """
 
 
-drive.mount('/content/drive')
+
 
 import pandas as pd
 df=pd.read_csv('/content/drive/MyDrive/Financial_inclusion_dataset.csv')
