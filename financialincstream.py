@@ -9,10 +9,8 @@ Original file is located at
 
 
 import pandas as pd
-
-# Assuming the dataset is in the same folder as the app
-dataset_path = "Financial_inclusion_dataset"
-df = pd.read_csv(dataset_path)
+dataset_url = "https://drive.google.com/file/d/1MDZ8rsTEW8ETdiUXwdBKM9HW-Re92VAX/view?usp=sharing" 
+df = pd.read_csv(dataset_url)
 
 
 
