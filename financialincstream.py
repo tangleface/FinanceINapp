@@ -1,3 +1,5 @@
+df = pd.read_csv(dataset_path, header=None)
+df = pd.read_csv(dataset_path, header=None)
 # -*- coding: utf-8 -*-
 """financialincSTREAm.ipynb
 
@@ -10,7 +12,7 @@ Original file is located at
 
 import pandas as pd
 dataset_url = "https://drive.google.com/file/d/1MDZ8rsTEW8ETdiUXwdBKM9HW-Re92VAX/view?usp=sharing" 
-df = pd.read_csv(dataset_url)
+df = pd.read_csv(dataset_path, header=None)
 
 
 
