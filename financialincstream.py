@@ -11,8 +11,17 @@ Original file is located at
 
 
 import pandas as pd
-dataset_url = "https://drive.google.com/file/d/1MDZ8rsTEW8ETdiUXwdBKM9HW-Re92VAX/view?usp=sharing" 
-df = pd.read_csv(dataset_path, header=None)
+
+# Define the dataset path
+dataset_path = "https://drive.google.com/uc?id=1MDZ8rsTEW8ETdiUXwdBKM9HW-Re92VAX"  
+
+# Load the dataset
+try:
+    df = pd.read_csv(dataset_path, header=None)
+    print("Dataset loaded successfully!")
+    print(df.head())
+except Exception as e:
+    print(f"Error loading dataset: {e}")
 
 
 
