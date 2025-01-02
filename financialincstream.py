@@ -8,9 +8,12 @@ Original file is located at
 """
 
 
-
-
 import pandas as pd
+
+# Assuming the dataset is in the same folder as the app
+dataset_path = "Financial_inclusion_dataset"
+df = pd.read_csv(dataset_path)
+
 df=pd.read_csv('/content/drive/MyDrive/Financial_inclusion_dataset.csv')
 df.head()
 
