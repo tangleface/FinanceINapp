@@ -14,8 +14,7 @@ import pandas as pd
 dataset_path = "Financial_inclusion_dataset"
 df = pd.read_csv(dataset_path)
 
-df=pd.read_csv('/content/drive/MyDrive/Financial_inclusion_dataset.csv')
-df.head()
+
 
 print(df.describe())
 print('§§§§§§§§§§§')
